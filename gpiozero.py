@@ -1,12 +1,11 @@
 from gpiozero import Servo
-from time import sleep
-
+import time
 servo = Servo(12)
 
 while True:
     servo.min()
-    sleep(2)
+    time.sleep(2)
     servo.mid()
-    sleep(2)
+    time.sleep(2)
     servo.max()
-    sleep(2)
+    time.sleep(2)
