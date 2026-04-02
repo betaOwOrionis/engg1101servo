@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 angle = 0
 GPIO.setmode(GPIO.BOARD)
-servo_pin = "insert pin number"
+servo_pin = 12
 GPIO.setup(servo_pin, GPIO.OUT)
 
 # PWM Setup - 50Hz
